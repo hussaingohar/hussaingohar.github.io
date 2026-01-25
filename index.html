@@ -130,15 +130,25 @@
         </div>
     </section>
 
-    <section id="publications">
-        <div class="section-header fade-in">
+   <section id="publications">
+        <div class="section-header">
             <div class="section-subtitle">Academic Contributions</div>
             <h2>Recent Publications</h2>
             <p class="section-description">Selected recent publications from my research in theoretical physics and cosmology</p>
         </div>
 
+        <!-- Year Filter Tabs -->
+        <div class="year-filters">
+            <button class="year-filter active" data-year="all">All Years</button>
+            <button class="year-filter" data-year="2026">2026</button>
+            <button class="year-filter" data-year="2025">2025</button>
+            <button class="year-filter" data-year="2024">2024</button>
+            <button class="year-filter" data-year="2023">2023</button>
+            <button class="year-filter" data-year="2021">2021</button>
+        </div>
+
         <div class="publications-list">
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2025">
                 <span class="publication-year">2025</span>
                 <h3>Mass-to-Horizon Entropic Cosmology: A Unified Thermodynamic Pathway to Cosmic Acceleration</h3>
                 <p class="publication-authors">T. Denkiewcz and H. Gohar</p>
@@ -148,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2026">
                 <span class="publication-year">2026</span>
                 <h3>Mass-to-Horizon Relation and Entropy Beyond the Bekenstein-Hawking Limit</h3>
                 <p class="publication-authors">H. Gohar</p>
@@ -158,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2025">
                 <span class="publication-year">2025</span>
                 <h3>Addressing the Hubble Tension: Insights from Reversible and Irreversible Thermodynamic Processes</h3>
                 <p class="publication-authors">H. Gohar</p>
@@ -168,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2025">
                 <span class="publication-year">2025</span>
                 <h3>The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics</h3>
                 <p class="publication-authors">Eleonora Di Valentino et al. (including H. Gohar)</p>
@@ -178,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2024">
                 <span class="publication-year">2024</span>
                 <h3>A generalized mass-to-horizon relation: a new global approach to entropic cosmologies and its connection to ΛCDM</h3>
                 <p class="publication-authors">H. Gohar and V. Salzano</p>
@@ -188,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2024">
                 <span class="publication-year">2024</span>
                 <h3>On the foundations of entropic cosmologies: inconsistencies, possible solutions and dead end signs</h3>
                 <p class="publication-authors">H. Gohar and V. Salzano</p>
@@ -198,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2023">
                 <span class="publication-year">2023</span>
                 <h3>Generalized uncertainty principle impact on nonextensive black hole thermodynamics</h3>
                 <p class="publication-authors">I. Cimdiker, M. P. Dabrowski, H. Gohar</p>
@@ -208,7 +218,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2023">
                 <span class="publication-year">2023</span>
                 <h3>Equilibrium Temperature for Black Holes with Nonextensive Entropy</h3>
                 <p class="publication-authors">I. Cimdiker, M. P. Dabrowski, H. Gohar</p>
@@ -218,7 +228,7 @@
                 </div>
             </div>
 
-            <div class="publication-item fade-in">
+            <div class="publication-item" data-year="2021">
                 <span class="publication-year">2021</span>
                 <h3>Nonextensive Black Hole Entropy and Quantum Gravity Effects at the Last Stages of Evaporation</h3>
                 <p class="publication-authors">A. Alonso-Serrano, M. P. Dabrowski, H. Gohar</p>
@@ -227,38 +237,138 @@
                     <a href="https://arxiv.org/abs/2009.02129" class="pub-link" target="_blank">arXiv:2009.02129</a>
                 </div>
             </div>
+        </div>
 
-            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: white; border-radius: 15px;">
-                <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Complete Publication List</h3>
-                <div class="publication-links" style="justify-content: center;">
-                    <a href="https://inspirehep.net/authors/1217908?ui-citation-summary=true" class="pub-link" target="_blank">INSPIRE-HEP</a>
-                    <a href="https://scholar.google.com/citations?user=C6aj4LwAAAAJ&hl=en" class="pub-link" target="_blank">Google Scholar</a>
-                    <a href="https://www.researchgate.net/profile/Hussain-Gohar" class="pub-link" target="_blank">ResearchGate</a>
-                </div>
+        <div class="complete-list">
+            <h3>Complete Publication List</h3>
+            <div class="publication-links">
+                <a href="https://inspirehep.net/authors/1217908?ui-citation-summary=true" class="pub-link" target="_blank">INSPIRE-HEP</a>
+                <a href="https://scholar.google.com/citations?user=C6aj4LwAAAAJ&hl=en" class="pub-link" target="_blank">Google Scholar</a>
+                <a href="https://www.researchgate.net/profile/Hussain-Gohar" class="pub-link" target="_blank">ResearchGate</a>
             </div>
         </div>
     </section>
+ <section id="code">
+        <div class="section-header">
+            <div class="section-subtitle">code</div>
+            <h2>Open Source Projects</h2>
+            <p class="section-description">Selected repositories from my research and development work</p>
+        </div>
 
+        <div class="code-grid">
+            <!-- Card 1 -->
+            <div class="code-card">
+                <div class="card-header">
+                    <span class="code-icon">🔬</span>
+                    <h3 class="card-title">Cosmology Toolkit</h3>
+                </div>
+                <p class="card-description">
+                    Python tools for analyzing entropic cosmology models and computing thermodynamic properties of black holes.
+                </p>
+                <div class="card-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">Cosmology</span>
+                </div>
+                <a href="https://github.com/yourusername/cosmology-toolkit" class="github-btn" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="code-card">
+                <div class="card-header">
+                    <span class="code-icon">📊</span>
+                    <h3 class="card-title">Entropic Analysis</h3>
+                </div>
+                <p class="card-description">
+                    Data analysis scripts for mass-to-horizon relations and entropy calculations beyond Bekenstein-Hawking limits.
+                </p>
+                <div class="card-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">SciPy</span>
+                </div>
+                <a href="https://github.com/yourusername/entropic-analysis" class="github-btn" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="code-card">
+                <div class="card-header">
+                    <span class="code-icon">🌌</span>
+                    <h3 class="card-title">Hubble Tension Solver</h3>
+                </div>
+                <p class="card-description">
+                    Implementation of thermodynamic approaches to address cosmological tensions using reversible and irreversible processes.
+                </p>
+                <div class="card-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Jupyter</span>
+                    <span class="tag">Physics</span>
+                </div>
+                <a href="https://github.com/yourusername/hubble-tension" class="github-btn" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="code-card">
+                <div class="card-header">
+                    <span class="code-icon">⚫</span>
+                    <h3 class="card-title">Black Hole Thermodynamics</h3>
+                </div>
+                <p class="card-description">
+                    Simulations for nonextensive black hole entropy and quantum gravity effects during evaporation.
+                </p>
+                <div class="card-tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Quantum</span>
+                </div>
+                <a href="https://github.com/yourusername/bh-thermodynamics" class="github-btn" target="_blank">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
     <section id="teaching">
-        <div class="section-header fade-in">
+        <div class="section-header">
             <div class="section-subtitle">Education & Mentorship</div>
             <h2>Teaching</h2>
             <p class="section-description">Courses and supervision at the University of Szczecin</p>
         </div>
 
-        <div class="teaching-content">
-            <div class="course-card fade-in">
+
+        <!-- Teaching Grid -->
+        <div class="teaching-grid">
+            <div class="teaching-card">
+                <div class="card-icon">🎓</div>
                 <h3>Graduate Courses</h3>
-                <p style="margin-bottom: 1.5rem;">I teach advanced courses in theoretical physics and cosmology at the graduate level, focusing on developing students' analytical and computational skills.</p>
+                <p>I teach advanced courses in theoretical physics and cosmology at the graduate level, focusing on developing students' analytical and computational skills.</p>
                 <div class="course-details">
                     <span class="course-label">Topics Include:</span>
                     <span>General Relativity, Cosmology, Thermodynamics of Black Holes, Alternative Gravity Theories</span>
                 </div>
             </div>
 
-            <div class="course-card fade-in">
+            <div class="teaching-card">
+                <div class="card-icon">🔬</div>
                 <h3>Research Supervision</h3>
-                <p style="margin-bottom: 1.5rem;">I actively supervise graduate students working on topics in theoretical cosmology and gravitational physics.</p>
+                <p>I actively supervise graduate students working on topics in theoretical cosmology and gravitational physics.</p>
                 <div class="course-details">
                     <span class="course-label">Research Areas:</span>
                     <span>Dark Energy Models, Entropic Cosmology, Black Hole Thermodynamics, Modified Gravity</span>
@@ -269,31 +379,55 @@
                 </div>
             </div>
 
-            <div class="course-card fade-in">
+            <div class="teaching-card">
+                <div class="card-icon">📚</div>
                 <h3>Undergraduate Physics</h3>
-                <p style="margin-bottom: 1.5rem;">Teaching foundational physics courses to undergraduate students, emphasizing problem-solving and physical intuition.</p>
+                <p>Teaching foundational physics courses to undergraduate students, emphasizing problem-solving and physical intuition.</p>
                 <div class="course-details">
                     <span class="course-label">Focus:</span>
                     <span>Classical Mechanics, Electromagnetism, Mathematical Physics</span>
                 </div>
             </div>
 
-            <div class="course-card fade-in">
+            <div class="teaching-card">
+                <div class="card-icon">💡</div>
                 <h3>Seminars & Workshops</h3>
-                <p style="margin-bottom: 1.5rem;">Regular participation in the Szczecin Cosmology Group seminars and workshops, fostering scientific discussion and collaboration.</p>
+                <p>Regular participation in the Szczecin Cosmology Group seminars and workshops, fostering scientific discussion and collaboration.</p>
                 <div class="course-details">
                     <span class="course-label">Activities:</span>
                     <span>Weekly research seminars, guest lectures, conference organization</span>
                 </div>
             </div>
 
-            <div style="text-align: center; margin-top: 3rem; padding: 2.5rem; background: var(--light-color); border-radius: 15px;">
-                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Interested in Research Collaboration?</h3>
-                <p style="margin-bottom: 1.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">I welcome inquiries from prospective students and researchers interested in theoretical physics, cosmology, and related areas.</p>
-                <a href="#contact" style="display: inline-block; padding: 1rem 2.5rem; background: var(--accent-color); color: white; text-decoration: none; border-radius: 30px; font-weight: 600; transition: all 0.3s;">Get In Touch</a>
+            <div class="teaching-card">
+                <div class="card-icon">🌍</div>
+                <h3>International Collaboration</h3>
+                <p>Engaging with researchers worldwide through collaborative projects, conferences, and joint publications.</p>
+                <div class="course-details">
+                    <span class="course-label">Networks:</span>
+                    <span>European cosmology collaborations, international research groups</span>
+                </div>
+            </div>
+
+            <div class="teaching-card">
+                <div class="card-icon">🎯</div>
+                <h3>Thesis Mentoring</h3>
+                <p>Guiding students through their master's and doctoral research, from topic selection to publication.</p>
+                <div class="course-details">
+                    <span class="course-label">Success Rate:</span>
+                    <span>High completion rate with multiple student publications</span>
+                </div>
             </div>
         </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h3>Interested in Research Collaboration?</h3>
+            <p>I welcome inquiries from prospective students and researchers interested in theoretical physics, cosmology, and related areas.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
     </section>
+
 
     <section id="education">
         <div class="section-header fade-in">
@@ -435,6 +569,33 @@
 
         document.querySelectorAll('.fade-in').forEach(el => {
             observer.observe(el);
+        });
+         // Year filter functionality
+        const filterButtons = document.querySelectorAll('.year-filter');
+        const publicationItems = document.querySelectorAll('.publication-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const selectedYear = button.getAttribute('data-year');
+
+                // Filter publications
+                publicationItems.forEach(item => {
+                    if (selectedYear === 'all') {
+                        item.classList.remove('hidden');
+                    } else {
+                        if (item.getAttribute('data-year') === selectedYear) {
+                            item.classList.remove('hidden');
+                        } else {
+                            item.classList.add('hidden');
+                        }
+                    }
+                });
+            });
         });
     </script>
 </body>

@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Publications</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <nav>
+    <nav>
         <div class="nav-container">
             <div class="logo">Dr. Hussain Gohar</div>
             <div class="mobile-menu" onclick="toggleMenu()">
@@ -22,10 +23,158 @@
                 <li><a href="index.html#publications">Publications</a></li>
                 <li><a href="index.html#teaching">Teaching</a></li>
                 <li><a href="index.html#education">Education</a></li>
+				<li><a href="index.html#code">Code</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <h2>comming soon</h2>
+    <section id="publications">
+        <div class="section-header">
+            <div class="section-subtitle">Academic Contributions</div>
+            <h2>Recent Publications</h2>
+            <p class="section-description">Selected recent publications from my research in theoretical physics and cosmology</p>
+        </div>
+
+        <!-- Year Filter Tabs -->
+        <div class="year-filters">
+            <button class="year-filter active" data-year="all">All Years</button>
+            <button class="year-filter" data-year="2026">2026</button>
+            <button class="year-filter" data-year="2025">2025</button>
+            <button class="year-filter" data-year="2024">2024</button>
+            <button class="year-filter" data-year="2023">2023</button>
+            <button class="year-filter" data-year="2021">2021</button>
+        </div>
+
+        <div class="publications-list">
+            <div class="publication-item" data-year="2025">
+                <span class="publication-year">2025</span>
+                <h3>Mass-to-Horizon Entropic Cosmology: A Unified Thermodynamic Pathway to Cosmic Acceleration</h3>
+                <p class="publication-authors">T. Denkiewcz and H. Gohar</p>
+                <p class="publication-journal">Preprint</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2512.22103" class="pub-link" target="_blank">arXiv:2512.22103</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2026">
+                <span class="publication-year">2026</span>
+                <h3>Mass-to-Horizon Relation and Entropy Beyond the Bekenstein-Hawking Limit</h3>
+                <p class="publication-authors">H. Gohar</p>
+                <p class="publication-journal">Physics Letters B 873 (2026) 140148</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2510.07587" class="pub-link" target="_blank">arXiv:2510.07587</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2025">
+                <span class="publication-year">2025</span>
+                <h3>Addressing the Hubble Tension: Insights from Reversible and Irreversible Thermodynamic Processes</h3>
+                <p class="publication-authors">H. Gohar</p>
+                <p class="publication-journal">Preprint</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2507.05854" class="pub-link" target="_blank">arXiv:2507.05854</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2025">
+                <span class="publication-year">2025</span>
+                <h3>The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics</h3>
+                <p class="publication-authors">Eleonora Di Valentino et al. (including H. Gohar)</p>
+                <p class="publication-journal">Physics of the Dark Universe 49 (2025) 101965</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2504.01669" class="pub-link" target="_blank">arXiv:2504.01669</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2024">
+                <span class="publication-year">2024</span>
+                <h3>A generalized mass-to-horizon relation: a new global approach to entropic cosmologies and its connection to ΛCDM</h3>
+                <p class="publication-authors">H. Gohar and V. Salzano</p>
+                <p class="publication-journal">Physical Review D 109 (2024) 8, 084075</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2307.06239" class="pub-link" target="_blank">arXiv:2307.06239</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2024">
+                <span class="publication-year">2024</span>
+                <h3>On the foundations of entropic cosmologies: inconsistencies, possible solutions and dead end signs</h3>
+                <p class="publication-authors">H. Gohar and V. Salzano</p>
+                <p class="publication-journal">Physics Letters B 855 (2024) 138781</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2307.01768" class="pub-link" target="_blank">arXiv:2307.01768</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2023">
+                <span class="publication-year">2023</span>
+                <h3>Generalized uncertainty principle impact on nonextensive black hole thermodynamics</h3>
+                <p class="publication-authors">I. Cimdiker, M. P. Dabrowski, H. Gohar</p>
+                <p class="publication-journal">Classical and Quantum Gravity 40, 145005 (2023)</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2301.00609" class="pub-link" target="_blank">arXiv:2301.00609</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2023">
+                <span class="publication-year">2023</span>
+                <h3>Equilibrium Temperature for Black Holes with Nonextensive Entropy</h3>
+                <p class="publication-authors">I. Cimdiker, M. P. Dabrowski, H. Gohar</p>
+                <p class="publication-journal">European Physical Journal C 83:169 (2023)</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2208.04473" class="pub-link" target="_blank">arXiv:2208.04473</a>
+                </div>
+            </div>
+
+            <div class="publication-item" data-year="2021">
+                <span class="publication-year">2021</span>
+                <h3>Nonextensive Black Hole Entropy and Quantum Gravity Effects at the Last Stages of Evaporation</h3>
+                <p class="publication-authors">A. Alonso-Serrano, M. P. Dabrowski, H. Gohar</p>
+                <p class="publication-journal">Physical Review D 103 (2021) 2, 026021</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2009.02129" class="pub-link" target="_blank">arXiv:2009.02129</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="complete-list">
+            <h3>Complete Publication List</h3>
+            <div class="publication-links">
+                <a href="https://inspirehep.net/authors/1217908?ui-citation-summary=true" class="pub-link" target="_blank">INSPIRE-HEP</a>
+                <a href="https://scholar.google.com/citations?user=C6aj4LwAAAAJ&hl=en" class="pub-link" target="_blank">Google Scholar</a>
+                <a href="https://www.researchgate.net/profile/Hussain-Gohar" class="pub-link" target="_blank">ResearchGate</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Year filter functionality
+        const filterButtons = document.querySelectorAll('.year-filter');
+        const publicationItems = document.querySelectorAll('.publication-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const selectedYear = button.getAttribute('data-year');
+
+                // Filter publications
+                publicationItems.forEach(item => {
+                    if (selectedYear === 'all') {
+                        item.classList.remove('hidden');
+                    } else {
+                        if (item.getAttribute('data-year') === selectedYear) {
+                            item.classList.remove('hidden');
+                        } else {
+                            item.classList.add('hidden');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
