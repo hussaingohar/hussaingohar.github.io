@@ -87,15 +87,20 @@
 
         /* Hero Section */
         .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
-            color: white;
-            padding: 120px 3rem 80px;
-            position: relative;
-            overflow: hidden;
-        }
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-image: url("https://live.staticflickr.com/65535/52259671775_9b0d0e8b6e_k.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    padding: 120px 3rem 80px;
+    position: relative;
+    overflow: hidden;
+}
 
         .hero::before {
             content: '';
